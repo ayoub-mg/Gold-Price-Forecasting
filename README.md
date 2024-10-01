@@ -49,8 +49,6 @@ A type of RNN designed for sequential data, capturing temporal dynamics in gold 
 
 ![image](https://github.com/user-attachments/assets/35b0802e-d0ce-40d8-aedd-88c1ab628bbb)
 
-![image](https://github.com/user-attachments/assets/e8185169-d611-419f-93b6-7d0dfb1824b4)
-
 ### Future Work
 Future enhancements could include integrating additional features, refining the trading strategy, and exploring more advanced models for improved accuracy.
 
