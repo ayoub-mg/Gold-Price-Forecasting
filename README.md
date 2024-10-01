@@ -52,7 +52,7 @@ A type of RNN designed for sequential data, capturing temporal dynamics in gold 
 ### Future Work
 Future enhancements could include integrating additional features, refining the trading strategy, and exploring more advanced models for improved accuracy.
 
-> **⚠️ Note:** For the best experience when viewing Jupyter notebooks, it is recommended to use **gitHub.dev** instead of **gitHub.com**. By navigating to `https://github.dev/ayoub-mg/`Gold-Price-Forecasting/, you can open the repository in a more interactive environment that better supports the rendering of Jupyter notebooks and Plotly visualizations.
+> **⚠️ Note:** For the best experience when viewing Jupyter notebooks, it is recommended to use **github.dev** instead of **github.com**. By navigating to `https://github.dev/ayoub-mg/Gold-Price-Forecasting/`, you can open the repository in a more interactive environment that better supports the rendering of Jupyter notebooks and Plotly visualizations.
 
 
 
