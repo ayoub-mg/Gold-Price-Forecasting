@@ -16,7 +16,7 @@ This project focuses on predicting gold prices using various machine learning mo
 + **Elastic Net**: Combines $\mathcal L^1$ and $\mathcal L^2$ penalties, balancing the strengths of Ridge and Lasso, making it effective for high-dimensional datasets.
 + **Principal Component Regression** (**PCR**): Applies PCA to reduce dimensionality and capture variance, followed by regression on the principal components to improve model performance.
 
-### LSTM Neural Networks
+### LSTM Neural Network
 
 A type of RNN designed for sequential data, capturing temporal dynamics in gold prices. The model is optimized through hyperparameter tuning using Keras Tuner.
 
