@@ -4,9 +4,11 @@
 
 This project focuses on predicting gold prices using various machine learning models, including linear regression, LSTM neural networks, and ensemble methods like Random Forest and XGBoost. The goal is to leverage historical data to forecast future prices, aiding investors and financial analysts in making informed decisions. Additionally, a trading strategy based on the forecasted prices has been implemented and evaluated over the entire period to assess its effectiveness and profitability.
 
+## Data Preprocessing & Feature Engineering
+
+The script (`dataprep.py`) was used to prepare and engineer features from historical gold price data (GLD ETF) sourced from Yahoo Finance. After cleaning the data by removing missing values, various technical indicators were computed, such as Simple and Exponential Moving Averages (SMA, EMA), Average True Range (ATR), and Relative Strength Index (RSI), to capture key market trends and volatility. Additional data from related financial instruments and indices, such as the US Dollar Index (DXY) and VanEck Vectors Gold Miners ETF (GDX), were incorporated to provide broader market context. Feature selection techniques, including correlation analysis, F-regression, RandomForest, and Lasso regression, were applied to optimize the dataset for predictive modeling by selecting the most relevant features.
 
 ## Modeling Techniques
-
 
 ### Linear Models
 
