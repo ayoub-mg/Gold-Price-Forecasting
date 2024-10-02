@@ -29,20 +29,20 @@ A type of RNN designed for sequential data, capturing temporal dynamics in gold 
 
 ### Model Performance Metrics :
 
-- **OLS**: $R^2$ Score: 0.990679.
-- **Ridge**: $R^2$ Score: 0.990598.
-- **Lasso**: $R^2$ Score: 0.990361.
-- **Elastic Net**: $R^2$ Score: 0.990510.
-- **Forward Variable Selection**: $R^2$ Score: 0.990058.
-- **PCR**: $R^2$ Score: 0.990679.
+- **OLS**: $R^2$ Score: 0.990847.
+- **Ridge**: $R^2$ Score: 0.989789.
+- **Lasso**: $R^2$ Score: 0.985848.
+- **Elastic Net**: $R^2$ Score: 0.985380.
+- **Forward Variable Selection**: $R^2$ Score: 0.990410.
+- **PCR**: $R^2$ Score: 0.990841.
 - **LSTM**: $R^2$ Score: 0.888253.
-- **Stacking Model (XGBoost)**: $R^2$ Score: 0.331659.
+- **Stacking Model (XGBoost)**: $R^2$ Score: 0.445287.
 
 ### Trading Strategy Evaluation :
 
-- **Linear Models**: Sharpe Ratio: 0.75.
+- **Linear Models**: Sharpe Ratio: 0.68.
 - **LSTM**: Sharpe Ratio: 0.89.
-- **Stacking Model (XGBoost)**: Sharpe Ratio: 0.51.
+- **Stacking Model (XGBoost)**: Sharpe Ratio: 0.6.
 
   
 ### Best Strategy Performance (Yielded by LSTM Model) :
@@ -52,8 +52,4 @@ A type of RNN designed for sequential data, capturing temporal dynamics in gold 
 ### Future Work
 Future enhancements could include integrating additional features, refining the trading strategy, and exploring more advanced models for improved accuracy.
 
-> **⚠️ Note:** For the best experience when viewing Jupyter notebooks, it is recommended to use **github.dev** instead of **github.com**. By navigating to `https://github.dev/ayoub-mg/Gold-Price-Forecasting/`, you can open the repository in a more interactive environment that better supports the rendering of Jupyter notebooks and Plotly visualizations.
-
-
-
-
+> **⚠️ Note:** For an enhanced experience when viewing Jupyter notebooks, we recommend using **github.dev** rather than **github.com**. By navigating to `https://github.dev/ayoub-mg/Gold-Price-Forecasting/`, you can access the repository in a more interactive environment that better supports the rendering of Jupyter notebooks and Plotly visualizations. Alternatively, you can also utilize [nbviewer.org](https://nbviewer.org/) to load the notebooks, which offers improved rendering and a cleaner, more user-friendly viewing experience.
