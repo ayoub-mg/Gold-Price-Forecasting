@@ -35,19 +35,20 @@ A type of RNN designed for sequential data, capturing temporal dynamics in gold 
 - **Elastic Net**: $R^2$ Score: 0.985380.
 - **Forward Variable Selection**: $R^2$ Score: 0.990410.
 - **PCR**: $R^2$ Score: 0.990841.
-- **LSTM**: $R^2$ Score: 0.888253.
+- **LSTM**: $R^2$ Score: 0.978041.
 - **Stacking Model (XGBoost)**: $R^2$ Score: 0.445287.
 
 ### Trading Strategy Evaluation :
 
 - **Linear Models**: Sharpe Ratio: 0.68.
-- **LSTM**: Sharpe Ratio: 0.89.
+- **LSTM**: Sharpe Ratio: 0.81.
 - **Stacking Model (XGBoost)**: Sharpe Ratio: 0.6.
 
   
 ### Best Strategy Performance (Yielded by LSTM Model) :
 
-![image](https://github.com/user-attachments/assets/35b0802e-d0ce-40d8-aedd-88c1ab628bbb)
+![image](https://github.com/user-attachments/assets/b9b8ddb5-f1fd-4b26-95e2-f888f693bf32)
+
 
 ### Future Work
 Future enhancements could include integrating additional features, refining the trading strategy, and exploring more advanced models for improved accuracy.
