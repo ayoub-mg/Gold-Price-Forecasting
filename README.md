@@ -48,7 +48,7 @@ A type of RNN designed for sequential data, capturing temporal dynamics in gold 
   
 ### Conclusion
 
-The LSTM model has effectively predicted the next day's closing price, providing valuable insights for future investment strategies & decision-making processes. Additionally, this model has achieved superior performance in strategy returns, as demonstrated by the accompanying figure. For a interactive comparison of actual vs. predicted prices, please refer to the [Actual vs. Predicted Prices by LSTM](./LSTM.html).
+The LSTM model has effectively predicted the next day's closing price, providing valuable insights for future investment strategies & decision-making processes. Additionally, this model has achieved superior performance in strategy returns, as demonstrated by the accompanying figure. For a interactive comparison of actual vs. predicted prices, please refer to the [Actual vs. Predicted Prices by LSTM](https://ayoub-mg.github.io/Gold-Price-Forecasting/LSTM.html).
 
 ![image](https://github.com/user-attachments/assets/b9b8ddb5-f1fd-4b26-95e2-f888f693bf32)
 
