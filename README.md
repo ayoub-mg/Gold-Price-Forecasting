@@ -27,7 +27,7 @@ A type of RNN designed for sequential data, capturing temporal dynamics in gold 
 + **Stacking Models**: Combines predictions from multiple ensemble methods, including AdaBoost, Random Forest, Gradient Boosting, & Extra Trees. The base model predictions serve as inputs for the final stacking model (XGBoost), enhancing overall predictive accuracy.
 
 
-## Results
+## Results & Assessments
 
 ### Model Performance Metrics :
 
@@ -45,14 +45,12 @@ A type of RNN designed for sequential data, capturing temporal dynamics in gold 
 - **Linear Models**: Sharpe Ratio: 0.68.
 - **LSTM**: Sharpe Ratio: 0.81.
 - **Stacking Model (XGBoost)**: Sharpe Ratio: 0.6.
-
   
-### Best Strategy Performance (Yielded by LSTM Model) :
+### Conclusion
+
+The LSTM model has effectively predicted the next day's closing price, providing valuable insights for future investment strategies. The accompanying figure demonstrates the model's ability to deliver accurate predictionsAdditionally, this model has achieved superior performance in strategy returns, as demonstrated by the accompanying figure. For a interactive comparison of actual vs. predicted prices, please refer to the [Actual vs. Predicted Prices by LSTM](./LSTM.html).
 
 ![image](https://github.com/user-attachments/assets/b9b8ddb5-f1fd-4b26-95e2-f888f693bf32)
 
-
-### Future Work
-Future enhancements could include integrating additional features, refining the trading strategy, and exploring more advanced models for improved accuracy.
 
 > **⚠️ Note:** For an enhanced experience when viewing Jupyter notebooks, we recommend using **github.dev** rather than **github.com**. By navigating to `https://github.dev/ayoub-mg/Gold-Price-Forecasting/`, you can access the repository in a more interactive environment that better supports the rendering of Jupyter notebooks and Plotly visualizations. Alternatively, you can also utilize [nbviewer.org](https://nbviewer.org/) to load the notebooks, which offers improved rendering and a cleaner, more user-friendly viewing experience.
